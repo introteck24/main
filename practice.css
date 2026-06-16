@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body.html{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color:antiquewhite
+}
+header{
+    background-color: rgb(131, 236, 236);
+    display: flex;
+    gap:8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+     display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+   
+#logo{
+  
+  margin:5px 0px 0px 100px;
+    
+}
+.headicon{
+    padding:20px 0px 20px 0px;
+    font-size:15px;
+    /* margin-left:15px; */
+}
+.headright{
+    margin-right:80px;
+}
